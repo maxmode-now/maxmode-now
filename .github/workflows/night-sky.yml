@@ -1,0 +1,26 @@
+name: Night sky
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxmode-now/night-sky-contrib@v1
+        with:
+          theme: night
+          output: night-sky.svg
+      - name: Commit the sky
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add night-sky.svg
+          git diff --cached --quiet || git commit -m "🌙 redraw the night sky"
+          git push
