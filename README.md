@@ -13,6 +13,11 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
 
 ![My night sky](night-sky.svg)
+
+-->
+
+<img width="1370" height="1148" alt="Image" src="https://github.com/user-attachments/assets/72454a77-073c-4a6f-b64e-b9fb6ff18695" />
+
+
