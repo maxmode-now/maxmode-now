@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 ![My night sky](night-sky.svg)
 
 -->
-
+<p align="center">
 <img width="380" height="280" alt="Image" src="https://github.com/user-attachments/assets/72454a77-073c-4a6f-b64e-b9fb6ff18695" />
-
+</p>
 
