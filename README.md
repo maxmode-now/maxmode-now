@@ -27,34 +27,9 @@
 
 ### Character Sheet
 
-> I sketch interfaces, then convince electrons to behave.  
-> Some days I'm a craftsman. Some days I'm a bug's emotional support human.  
-> Either way — I leave things a little better than I found them.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-**Active Quests**
-- [x] Open the sketchbook
-- [ ] Draw something people remember
-- [ ] Ship it before the eraser wins
-- [ ] Collect stars like pocket lint
-
-    </td>
-    <td width="50%" valign="top">
-
-**Inventory**
-| Item | Effect |
-|:---|:---|
-| `console.log` | Reveals fog of war |
-| Soft eraser | Undoes hubris |
-| Second coffee | +2 focus / −1 sleep |
-| Sticky note | External brain slot |
-
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/character-sheet.svg" alt="Character sheet with bio, active quests, and inventory" width="720"/>
+</div>
 
 <div align="center">
   <img src="./assets/divider.svg" alt="" width="520"/>
