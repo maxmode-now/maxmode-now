@@ -110,11 +110,6 @@
 [![Email](https://img.shields.io/badge/Email-4a4a4a?style=flat-square&logo=gmail&logoColor=f2efe8)](mailto:maxmode.now@gmail.com)
 [![Web](https://img.shields.io/badge/Site-6a6a6a?style=flat-square&logo=googlechrome&logoColor=f2efe8)](https://maxmode-now.com/)
 
-<br/>
-
-<img height="148" src="https://github-readme-stats.vercel.app/api?username=maxmode-now&show_icons=true&hide_border=true&bg_color=f2efe8&title_color=2a2a2a&icon_color=4a4a4a&text_color=3a3a3a&ring_color=6a6a6a" alt="GitHub stats"/>
-<img height="148" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxmode-now&layout=compact&hide_border=true&bg_color=f2efe8&title_color=2a2a2a&text_color=3a3a3a" alt="Top languages"/>
-
 </div>
 
 <div align="center">
