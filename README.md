@@ -55,11 +55,17 @@
 
 ### Dungeons Cleared
 
-| Dungeon | Rank | Loot | Door |
-|:---|:---:|:---|:---|
-| **spring-config-drift-inspector** | ★★★★ | Config ghosts, exorcised | [enter](https://github.com/maxmode-now/spring-config-drift-inspector) |
-| **token-tray** | ★★★☆ | Tokens that stay put | [enter](https://github.com/maxmode-now/token-tray) |
-| **city-3d** | ★★★★ | A city you can orbit | [enter](https://github.com/maxmode-now/city-3d) |
+<div align="center">
+  <img src="./assets/dungeons.svg" alt="Dungeons cleared: spring-config-drift-inspector, token-tray, city-3d" width="780"/>
+  <br/>
+  <sub>
+    <a href="https://github.com/maxmode-now/spring-config-drift-inspector">enter · spring-config-drift-inspector</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/maxmode-now/token-tray">enter · token-tray</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/maxmode-now/city-3d">enter · city-3d</a>
+  </sub>
+</div>
 
 <div align="center">
   <img src="./assets/divider.svg" alt="" width="520"/>
