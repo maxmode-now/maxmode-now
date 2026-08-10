@@ -64,11 +64,13 @@
 
 ```text
                  curiosity
-                     │
-         ┌───────────┼───────────┐
-         ▼           ▼           ▼
+                     |
+         +-----------+-----------+
+         |           |           |
+         v           v           v
      frontend     product      chaos
-      ████░        ███░░        █████
+     [####-]      [###--]      [#####]
+       4/5          3/5          5/5
 ```
 
 `TypeScript` · `React` · `Next.js` · `Node` · `HTML/CSS` · `Git`
