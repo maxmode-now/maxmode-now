@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="56" viewBox="0 0 780 56" role="img" aria-label="token-tray">
+  <defs>
+    <style>
+      <![CDATA[
+        .paper { fill: #f2efe8; }
+        .panel { fill: #f7f5f0; }
+        .ink { fill: none; stroke: #2a2a2a; stroke-width: 1.4; }
+        .ink-soft { fill: none; stroke: #4a4a4a; stroke-width: 1.1; }
+        .body { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; font-size: 12px; }
+        .fill { fill: #2a2a2a; }
+        .empty { fill: none; stroke: #2a2a2a; stroke-width: 1.2; }
+      ]]>
+    </style>
+  </defs>
+  <rect class="paper" x="6" y="0" width="768" height="56"/>
+  <path class="ink" d="M10 0 V56 M770 0 V56"/>
+  <path class="panel" d="M36 4 H744 V52 H36 Z"/>
+  <path class="ink-soft" d="M36 4 H744 V52 H36 Z" fill="none"/>
+  <text class="body" x="48" y="32">token-tray</text>
+  <rect class="fill" x="400" y="19" width="14" height="14" rx="2"/>
+  <rect class="fill" x="418" y="19" width="14" height="14" rx="2"/>
+  <rect class="fill" x="436" y="19" width="14" height="14" rx="2"/>
+  <rect class="empty" x="454" y="19" width="14" height="14" rx="2"/>
+  <text class="body" x="490" y="32">Tokens that stay put</text>
+</svg>

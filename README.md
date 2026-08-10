@@ -56,15 +56,10 @@
 ### Dungeons Cleared
 
 <div align="center">
-  <img src="./assets/dungeons.svg" alt="Dungeons cleared: spring-config-drift-inspector, token-tray, city-3d" width="780"/>
-  <br/>
-  <sub>
-    <a href="https://github.com/maxmode-now/spring-config-drift-inspector">enter · spring-config-drift-inspector</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/maxmode-now/token-tray">enter · token-tray</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/maxmode-now/city-3d">enter · city-3d</a>
-  </sub>
+  <img src="./assets/dungeons-head.svg" alt="Dungeons cleared" width="780"/>
+  <a href="https://github.com/maxmode-now/spring-config-drift-inspector"><img src="./assets/dungeons-1.svg" alt="spring-config-drift-inspector" width="780"/></a>
+  <a href="https://github.com/maxmode-now/token-tray"><img src="./assets/dungeons-2.svg" alt="token-tray" width="780"/></a>
+  <a href="https://github.com/maxmode-now/city-3d"><img src="./assets/dungeons-3.svg" alt="city-3d" width="780"/></a>
 </div>
 
 <div align="center">
