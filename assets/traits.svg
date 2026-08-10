@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" role="img" aria-labelledby="t">
+  <title id="t">Traits and debuffs - hand-inked</title>
+  <defs>
+    <style>
+      <![CDATA[
+        .paper { fill: #f2efe8; }
+        .panel { fill: #f7f5f0; }
+        .ink { fill: none; stroke: #2a2a2a; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+        .ink-soft { fill: none; stroke: #4a4a4a; stroke-width: 1.1; stroke-linecap: round; }
+        .ink-light { fill: none; stroke: #6e6e6e; stroke-width: 0.9; stroke-linecap: round; }
+        .label { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; font-size: 13px; }
+        .title { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; font-size: 15px; font-weight: bold; }
+        .muted { font-family: "Courier New", Courier, monospace; fill: #5a5a5a; font-size: 11px; }
+        .body { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; font-size: 12px; }
+        .tag { fill: #ebe7df; stroke: #2a2a2a; stroke-width: 1.2; }
+      ]]>
+    </style>
+  </defs>
+
+  <rect class="paper" x="6" y="6" width="708" height="268" rx="4"/>
+  <path class="ink" d="M10 14 C 40 6, 680 6, 710 16 C 718 50, 716 240, 708 266 C 670 276, 50 276, 14 262 C 4 220, 4 50, 10 14 Z" fill="none"/>
+
+  <text class="title" x="360" y="40" text-anchor="middle">TRAITS &amp; DEBUFFS</text>
+  <path class="ink-soft" d="M240 48 Q 360 54 480 48"/>
+  <text class="muted" x="360" y="68" text-anchor="middle">field notes  //  always on</text>
+
+  <!-- rows -->
+  <g transform="translate(40, 88)">
+    <!-- row 1 -->
+    <path class="panel" d="M0 0 H640 V40 H0 Z"/>
+    <path class="ink-soft" d="M0 0 H640 V40 H0 Z" fill="none"/>
+    <rect class="tag" x="12" y="10" width="128" height="20" rx="3"/>
+    <text class="body" x="76" y="24" text-anchor="middle">Perfectionism</text>
+    <text class="body" x="156" y="24">"Almost done" can last a week</text>
+
+    <!-- row 2 -->
+    <g transform="translate(0, 48)">
+      <path class="panel" d="M0 0 H640 V40 H0 Z"/>
+      <path class="ink-soft" d="M0 0 H640 V40 H0 Z" fill="none"/>
+      <rect class="tag" x="12" y="10" width="128" height="20" rx="3"/>
+      <text class="body" x="76" y="24" text-anchor="middle">Naming curse</text>
+      <text class="body" x="156" y="24">Owns final, final2, final_really</text>
+    </g>
+
+    <!-- row 3 -->
+    <g transform="translate(0, 96)">
+      <path class="panel" d="M0 0 H640 V40 H0 Z"/>
+      <path class="ink-soft" d="M0 0 H640 V40 H0 Z" fill="none"/>
+      <rect class="tag" x="12" y="10" width="128" height="20" rx="3"/>
+      <text class="body" x="76" y="24" text-anchor="middle">Tab diplomacy</text>
+      <text class="body" x="156" y="24">Refuses to start wars. Loses them quietly.</text>
+    </g>
+
+    <!-- row 4 -->
+    <g transform="translate(0, 144)">
+      <path class="panel" d="M0 0 H640 V40 H0 Z"/>
+      <path class="ink-soft" d="M0 0 H640 V40 H0 Z" fill="none"/>
+      <rect class="tag" x="12" y="10" width="128" height="20" rx="3"/>
+      <text class="body" x="76" y="24" text-anchor="middle">Hidden passive</text>
+      <text class="body" x="156" y="24">Stuck? Walk. Solutions appear mid-block.</text>
+    </g>
+  </g>
+
+  <path class="ink-light" d="M670 250 Q 680 258 668 266" opacity="0.45"/>
+</svg>

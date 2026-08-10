@@ -43,18 +43,11 @@
 
 `TypeScript` · `React` · `Next.js` · `Node` · `HTML/CSS` · `Git`
 
-<details>
-<summary><strong>Traits &amp; debuffs</strong> <sub>(click)</sub></summary>
-<br/>
+### Traits &amp; Debuffs
 
-| Trait | Notes |
-|:---|:---|
-| Perfectionism | “Almost done” can last a week |
-| Naming curse | Owns `final`, `final2`, `final_really` |
-| Tab diplomacy | Refuses to start wars. Loses them quietly. |
-| Hidden passive | Stuck? Walk. Solutions appear mid-block. |
-
-</details>
+<div align="center">
+  <img src="./assets/traits.svg" alt="Traits and debuffs: Perfectionism, Naming curse, Tab diplomacy, Hidden passive" width="720"/>
+</div>
 
 <div align="center">
   <img src="./assets/divider.svg" alt="" width="520"/>
