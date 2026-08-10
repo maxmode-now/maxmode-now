@@ -53,11 +53,11 @@
 
 ### Dungeons Cleared
 
-<div align="center">
-  <img src="./assets/dungeons-head.svg" alt="Dungeons cleared" width="780"/>
-  <a href="https://github.com/maxmode-now/spring-config-drift-inspector"><img src="./assets/dungeons-1.svg" alt="spring-config-drift-inspector" width="780"/></a>
-  <a href="https://github.com/maxmode-now/token-tray"><img src="./assets/dungeons-2.svg" alt="token-tray" width="780"/></a>
-  <a href="https://github.com/maxmode-now/city-3d"><img src="./assets/dungeons-3.svg" alt="city-3d" width="780"/></a>
+<div align="center" style="line-height:0;font-size:0">
+  <img src="./assets/dungeons-head.svg" alt="Dungeons cleared" width="780" height="76" style="display:block;margin:0 auto;border:0;padding:0"/>
+  <a href="https://github.com/maxmode-now/spring-config-drift-inspector" style="display:block;line-height:0;margin:0;padding:0"><img src="./assets/dungeons-1.svg" alt="spring-config-drift-inspector" width="780" height="56" style="display:block;margin:0 auto;border:0;padding:0"/></a>
+  <a href="https://github.com/maxmode-now/token-tray" style="display:block;line-height:0;margin:0;padding:0"><img src="./assets/dungeons-2.svg" alt="token-tray" width="780" height="56" style="display:block;margin:0 auto;border:0;padding:0"/></a>
+  <a href="https://github.com/maxmode-now/city-3d" style="display:block;line-height:0;margin:0;padding:0"><img src="./assets/dungeons-3.svg" alt="city-3d" width="780" height="68" style="display:block;margin:0 auto;border:0;padding:0"/></a>
 </div>
 
 <div align="center">
