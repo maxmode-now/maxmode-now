@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="300" viewBox="0 0 780 300" role="img" aria-labelledby="t">
+  <title id="t">Dungeons cleared - hand-inked</title>
+  <defs>
+    <style>
+      <![CDATA[
+        .paper { fill: #f2efe8; }
+        .panel { fill: #f7f5f0; }
+        .ink { fill: none; stroke: #2a2a2a; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+        .ink-soft { fill: none; stroke: #4a4a4a; stroke-width: 1.1; stroke-linecap: round; }
+        .title { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; font-size: 15px; font-weight: bold; }
+        .muted { font-family: "Courier New", Courier, monospace; fill: #5a5a5a; font-size: 11px; }
+        .head { font-family: "Courier New", Courier, monospace; fill: #5a5a5a; font-size: 11px; }
+        .body { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; font-size: 12px; }
+        .fill { fill: #2a2a2a; stroke: none; }
+        .empty { fill: none; stroke: #2a2a2a; stroke-width: 1.2; }
+      ]]>
+    </style>
+  </defs>
+
+  <rect class="paper" x="8" y="8" width="764" height="284" rx="4"/>
+  <rect class="ink" x="12" y="12" width="756" height="276" rx="3"/>
+
+  <text class="title" x="390" y="40" text-anchor="middle">DUNGEONS CLEARED</text>
+  <path class="ink-soft" d="M260 48 Q 390 54 520 48"/>
+  <text class="muted" x="390" y="66" text-anchor="middle">loot log  //  github.com/maxmode-now</text>
+
+  <g transform="translate(40, 84)">
+    <text class="head" x="12" y="0">DUNGEON</text>
+    <text class="head" x="400" y="0">RANK</text>
+    <text class="head" x="500" y="0">LOOT</text>
+    <path class="ink-soft" d="M0 10 H700" opacity="0.5"/>
+
+    <!-- row 1 -->
+    <g transform="translate(0, 22)">
+      <rect class="panel" x="0" y="0" width="700" height="44"/>
+      <rect class="ink-soft" x="0" y="0" width="700" height="44"/>
+      <text class="body" x="12" y="28">spring-config-drift-inspector</text>
+      <rect class="fill" x="400" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="418" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="436" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="454" y="15" width="14" height="14" rx="2"/>
+      <text class="body" x="500" y="28">Config ghosts, exorcised</text>
+    </g>
+
+    <!-- row 2 -->
+    <g transform="translate(0, 74)">
+      <rect class="panel" x="0" y="0" width="700" height="44"/>
+      <rect class="ink-soft" x="0" y="0" width="700" height="44"/>
+      <text class="body" x="12" y="28">token-tray</text>
+      <rect class="fill" x="400" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="418" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="436" y="15" width="14" height="14" rx="2"/>
+      <rect class="empty" x="454" y="15" width="14" height="14" rx="2"/>
+      <text class="body" x="500" y="28">Tokens that stay put</text>
+    </g>
+
+    <!-- row 3 -->
+    <g transform="translate(0, 126)">
+      <rect class="panel" x="0" y="0" width="700" height="44"/>
+      <rect class="ink-soft" x="0" y="0" width="700" height="44"/>
+      <text class="body" x="12" y="28">city-3d</text>
+      <rect class="fill" x="400" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="418" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="436" y="15" width="14" height="14" rx="2"/>
+      <rect class="fill" x="454" y="15" width="14" height="14" rx="2"/>
+      <text class="body" x="500" y="28">A city you can orbit</text>
+    </g>
+  </g>
+</svg>
