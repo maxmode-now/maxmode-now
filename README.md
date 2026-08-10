@@ -62,16 +62,9 @@
 
 ### Skill Tree *(hand-inked)*
 
-```text
-                 curiosity
-                     |
-         +-----------+-----------+
-         |           |           |
-         v           v           v
-     frontend     product      chaos
-     [####-]      [###--]      [#####]
-       4/5          3/5          5/5
-```
+<div align="center">
+  <img src="./assets/skills.svg" alt="Skill tree: curiosity branches into frontend 4/5, product 3/5, chaos 5/5" width="560"/>
+</div>
 
 `TypeScript` · `React` · `Next.js` · `Node` · `HTML/CSS` · `Git`
 

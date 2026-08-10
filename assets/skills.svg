@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-labelledby="t">
+  <title id="t">Skill tree - hand-inked</title>
+  <defs>
+    <style>
+      <![CDATA[
+        .paper { fill: #f2efe8; }
+        .ink { fill: none; stroke: #2a2a2a; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+        .ink-soft { fill: none; stroke: #4a4a4a; stroke-width: 1.1; stroke-linecap: round; }
+        .ink-light { fill: none; stroke: #6e6e6e; stroke-width: 0.9; stroke-linecap: round; }
+        .label { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; font-size: 13px; }
+        .muted { fill: #5a5a5a; font-size: 11px; }
+        .fill { fill: #2a2a2a; stroke: none; }
+        .empty { fill: none; stroke: #2a2a2a; stroke-width: 1.2; }
+      ]]>
+    </style>
+  </defs>
+
+  <rect class="paper" x="6" y="6" width="548" height="208" rx="4"/>
+  <path class="ink" d="M10 12 C 30 6, 530 6, 550 14 C 556 40, 554 190, 548 206 C 520 214, 40 214, 14 204 C 6 170, 4 40, 10 12 Z" fill="none"/>
+
+  <!-- root -->
+  <text class="label" x="280" y="36" text-anchor="middle">curiosity</text>
+  <path class="ink-soft" d="M280 42 V70"/>
+  <path class="ink-soft" d="M100 70 H460"/>
+  <path class="ink-soft" d="M100 70 V88"/>
+  <path class="ink-soft" d="M280 70 V88"/>
+  <path class="ink-soft" d="M460 70 V88"/>
+
+  <!-- branch tips -->
+  <path class="ink" d="M100 88 L96 80 M100 88 L104 80"/>
+  <path class="ink" d="M280 88 L276 80 M280 88 L284 80"/>
+  <path class="ink" d="M460 88 L456 80 M460 88 L464 80"/>
+
+  <!-- frontend 4/5 -->
+  <g transform="translate(40, 108)">
+    <text class="label" x="60" y="0" text-anchor="middle">frontend</text>
+    <g transform="translate(0, 16)">
+      <rect class="fill" x="0" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="28" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="56" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="84" y="0" width="22" height="14" rx="2"/>
+      <rect class="empty" x="112" y="0" width="22" height="14" rx="2"/>
+      <!-- pencil hatch on filled -->
+      <path class="ink-light" d="M3 3 L19 11 M3 7 L15 13" opacity="0.35"/>
+      <path class="ink-light" d="M31 3 L47 11 M31 7 L43 13" opacity="0.35"/>
+      <path class="ink-light" d="M59 3 L75 11 M59 7 L71 13" opacity="0.35"/>
+      <path class="ink-light" d="M87 3 L103 11 M87 7 L99 13" opacity="0.35"/>
+    </g>
+    <text class="label muted" x="60" y="50" text-anchor="middle">4 / 5</text>
+  </g>
+
+  <!-- product 3/5 -->
+  <g transform="translate(220, 108)">
+    <text class="label" x="60" y="0" text-anchor="middle">product</text>
+    <g transform="translate(0, 16)">
+      <rect class="fill" x="0" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="28" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="56" y="0" width="22" height="14" rx="2"/>
+      <rect class="empty" x="84" y="0" width="22" height="14" rx="2"/>
+      <rect class="empty" x="112" y="0" width="22" height="14" rx="2"/>
+      <path class="ink-light" d="M3 3 L19 11 M3 7 L15 13" opacity="0.35"/>
+      <path class="ink-light" d="M31 3 L47 11 M31 7 L43 13" opacity="0.35"/>
+      <path class="ink-light" d="M59 3 L75 11 M59 7 L71 13" opacity="0.35"/>
+    </g>
+    <text class="label muted" x="60" y="50" text-anchor="middle">3 / 5</text>
+  </g>
+
+  <!-- chaos 5/5 -->
+  <g transform="translate(400, 108)">
+    <text class="label" x="60" y="0" text-anchor="middle">chaos</text>
+    <g transform="translate(0, 16)">
+      <rect class="fill" x="0" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="28" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="56" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="84" y="0" width="22" height="14" rx="2"/>
+      <rect class="fill" x="112" y="0" width="22" height="14" rx="2"/>
+      <path class="ink-light" d="M3 3 L19 11 M3 7 L15 13" opacity="0.35"/>
+      <path class="ink-light" d="M31 3 L47 11 M31 7 L43 13" opacity="0.35"/>
+      <path class="ink-light" d="M59 3 L75 11 M59 7 L71 13" opacity="0.35"/>
+      <path class="ink-light" d="M87 3 L103 11 M87 7 L99 13" opacity="0.35"/>
+      <path class="ink-light" d="M115 3 L131 11 M115 7 L127 13" opacity="0.35"/>
+    </g>
+    <text class="label muted" x="60" y="50" text-anchor="middle">5 / 5</text>
+  </g>
+
+  <text class="label muted" x="280" y="198" text-anchor="middle">hand-inked meters // same baseline</text>
+</svg>
