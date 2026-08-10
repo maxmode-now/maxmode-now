@@ -1,6 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="t">
   <title id="t">Traits and debuffs - hand-inked</title>
   <defs>
+    <clipPath id="cardClip">
+      <rect x="10" y="10" width="700" height="300" rx="4"/>
+    </clipPath>
     <style>
       <![CDATA[
         .paper { fill: #f2efe8; }
@@ -17,49 +20,50 @@
     </style>
   </defs>
 
-  <rect class="paper" x="6" y="6" width="708" height="288" rx="4"/>
-  <path class="ink" d="M10 14 C 40 6, 680 6, 710 16 C 718 50, 716 260, 708 286 C 670 296, 50 296, 14 282 C 4 240, 4 50, 10 14 Z" fill="none"/>
+  <rect class="paper" x="6" y="6" width="708" height="308" rx="4"/>
+  <path class="ink" d="M10 14 C 40 6, 680 6, 710 16 C 718 50, 716 280, 708 306 C 670 316, 50 316, 14 302 C 4 260, 4 50, 10 14 Z" fill="none"/>
 
-  <text class="title" x="360" y="38" text-anchor="middle">TRAITS &amp; DEBUFFS</text>
-  <path class="ink-soft" d="M240 46 Q 360 52 480 46"/>
-  <text class="muted" x="360" y="64" text-anchor="middle">field notes  //  always on</text>
+  <g clip-path="url(#cardClip)">
+    <text class="title" x="360" y="38" text-anchor="middle">TRAITS &amp; DEBUFFS</text>
+    <path class="ink-soft" d="M240 46 Q 360 52 480 46"/>
+    <text class="muted" x="360" y="64" text-anchor="middle">field notes  //  always on</text>
 
-  <!-- rows stay inside card with bottom margin -->
-  <g transform="translate(36, 82)">
-    <!-- row 1 -->
-    <path class="panel" d="M0 0 H648 V42 H0 Z"/>
-    <path class="ink-soft" d="M0 0 H648 V42 H0 Z" fill="none"/>
-    <rect class="tag" x="12" y="10" width="150" height="22" rx="3"/>
-    <text class="body" x="87" y="25" text-anchor="middle">Perfectionism</text>
-    <text class="note" x="178" y="25">"Almost done" can last a week</text>
+    <!-- content inset well inside border -->
+    <g transform="translate(40, 84)">
+      <!-- row 1 -->
+      <path class="panel" d="M0 0 H640 V44 H0 Z"/>
+      <path class="ink-soft" d="M0 0 H640 V44 H0 Z" fill="none"/>
+      <rect class="tag" x="12" y="11" width="150" height="22" rx="3"/>
+      <text class="body" x="87" y="26" text-anchor="middle">Perfectionism</text>
+      <text class="note" x="178" y="26">"Almost done" can last a week</text>
 
-    <!-- row 2 -->
-    <g transform="translate(0, 50)">
-      <path class="panel" d="M0 0 H648 V42 H0 Z"/>
-      <path class="ink-soft" d="M0 0 H648 V42 H0 Z" fill="none"/>
-      <rect class="tag" x="12" y="10" width="150" height="22" rx="3"/>
-      <text class="body" x="87" y="25" text-anchor="middle">Naming curse</text>
-      <text class="note" x="178" y="25">Owns final, final2, final_really</text>
-    </g>
+      <!-- row 2 -->
+      <g transform="translate(0, 52)">
+        <path class="panel" d="M0 0 H640 V44 H0 Z"/>
+        <path class="ink-soft" d="M0 0 H640 V44 H0 Z" fill="none"/>
+        <rect class="tag" x="12" y="11" width="150" height="22" rx="3"/>
+        <text class="body" x="87" y="26" text-anchor="middle">Naming curse</text>
+        <text class="note" x="178" y="26">Owns final, final2, final_really</text>
+      </g>
 
-    <!-- row 3 -->
-    <g transform="translate(0, 100)">
-      <path class="panel" d="M0 0 H648 V42 H0 Z"/>
-      <path class="ink-soft" d="M0 0 H648 V42 H0 Z" fill="none"/>
-      <rect class="tag" x="12" y="10" width="150" height="22" rx="3"/>
-      <text class="body" x="87" y="25" text-anchor="middle">Tab diplomacy</text>
-      <text class="note" x="178" y="25">Refuses to start wars. Loses them quietly.</text>
-    </g>
+      <!-- row 3 -->
+      <g transform="translate(0, 104)">
+        <path class="panel" d="M0 0 H640 V44 H0 Z"/>
+        <path class="ink-soft" d="M0 0 H640 V44 H0 Z" fill="none"/>
+        <rect class="tag" x="12" y="11" width="150" height="22" rx="3"/>
+        <text class="body" x="87" y="26" text-anchor="middle">Tab diplomacy</text>
+        <text class="note" x="178" y="26">Refuses to start wars. Loses them quietly.</text>
+      </g>
 
-    <!-- row 4 -->
-    <g transform="translate(0, 150)">
-      <path class="panel" d="M0 0 H648 V42 H0 Z"/>
-      <path class="ink-soft" d="M0 0 H648 V42 H0 Z" fill="none"/>
-      <rect class="tag" x="12" y="10" width="150" height="22" rx="3"/>
-      <text class="body" x="87" y="25" text-anchor="middle">Hidden passive</text>
-      <text class="note" x="178" y="25">Stuck? Walk. Solutions appear mid-block.</text>
+      <!-- row 4: taller for two-line note -->
+      <g transform="translate(0, 156)">
+        <path class="panel" d="M0 0 H640 V56 H0 Z"/>
+        <path class="ink-soft" d="M0 0 H640 V56 H0 Z" fill="none"/>
+        <rect class="tag" x="12" y="17" width="150" height="22" rx="3"/>
+        <text class="body" x="87" y="32" text-anchor="middle">Hidden passive</text>
+        <text class="note" x="178" y="26">Stuck? Walk.</text>
+        <text class="note" x="178" y="42">Solutions appear mid-block.</text>
+      </g>
     </g>
   </g>
-
-  <path class="ink-light" d="M670 268 Q 680 276 668 284" opacity="0.45"/>
 </svg>
