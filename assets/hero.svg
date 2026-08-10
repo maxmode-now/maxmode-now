@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="440" viewBox="0 0 920 440" role="img" aria-labelledby="title desc">
+  <title id="title">Sketchbook NPC - developer character with terminal</title>
+  <desc id="desc">A pencil-sketch portrait of a developer NPC beside a hand-drawn terminal window with typing dialogue.</desc>
+
+  <defs>
+    <filter id="grain" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.35  0 0 0 0 0.35  0 0 0 0.07 0" result="mono"/>
+      <feBlend in="SourceGraphic" in2="mono" mode="multiply"/>
+    </filter>
+
+    <filter id="pencil" x="-2%" y="-2%" width="104%" height="104%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="1.2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <clipPath id="paperClip">
+      <rect x="18" y="18" width="884" height="404" rx="6"/>
+    </clipPath>
+
+    <style>
+      <![CDATA[
+        .ink { fill: none; stroke: #2a2a2a; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+        .ink-soft { fill: none; stroke: #4a4a4a; stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; }
+        .ink-light { fill: none; stroke: #6e6e6e; stroke-width: 0.9; stroke-linecap: round; }
+        .hatch { fill: none; stroke: #3a3a3a; stroke-width: 0.7; opacity: 0.55; }
+        .paper-bg { fill: #f2efe8; }
+        .label { font-family: "Courier New", Courier, monospace; fill: #2a2a2a; }
+        .term { font-family: "Courier New", Courier, monospace; fill: #1f1f1f; font-size: 13px; }
+        .muted { fill: #5a5a5a; }
+
+        #npc { transform-origin: 190px 320px; animation: float 4.2s ease-in-out infinite; }
+        #blink { animation: blink 5.2s ease-in-out infinite; }
+        #line1 { opacity: 0; animation: type1 12s ease-in-out infinite; }
+        #line2 { opacity: 0; animation: type2 12s ease-in-out infinite; }
+        #line3 { opacity: 0; animation: type3 12s ease-in-out infinite; }
+        #line4 { opacity: 0; animation: type4 12s ease-in-out infinite; }
+        #promptDot { animation: cursor 1.05s steps(1, end) infinite; }
+
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-5px); }
+        }
+        @keyframes blink {
+          0%, 42%, 48%, 100% { opacity: 1; }
+          45% { opacity: 0; }
+        }
+        @keyframes cursor {
+          0%, 49% { opacity: 1; }
+          50%, 100% { opacity: 0; }
+        }
+        @keyframes type1 {
+          0%, 4% { opacity: 0; }
+          8%, 90% { opacity: 1; }
+          96%, 100% { opacity: 0; }
+        }
+        @keyframes type2 {
+          0%, 18% { opacity: 0; }
+          22%, 90% { opacity: 1; }
+          96%, 100% { opacity: 0; }
+        }
+        @keyframes type3 {
+          0%, 38% { opacity: 0; }
+          42%, 90% { opacity: 1; }
+          96%, 100% { opacity: 0; }
+        }
+        @keyframes type4 {
+          0%, 58% { opacity: 0; }
+          62%, 90% { opacity: 1; }
+          96%, 100% { opacity: 0; }
+        }
+      ]]>
+    </style>
+  </defs>
+
+  <g filter="url(#grain)">
+    <rect class="paper-bg" x="12" y="12" width="896" height="416" rx="8"/>
+    <g class="ink-light" opacity="0.5">
+      <circle cx="36" cy="70" r="4"/>
+      <circle cx="36" cy="140" r="4"/>
+      <circle cx="36" cy="210" r="4"/>
+      <circle cx="36" cy="280" r="4"/>
+      <circle cx="36" cy="350" r="4"/>
+    </g>
+    <path class="ink-light" d="M58 30 V410" opacity="0.35"/>
+    <path class="ink" d="M20 24
+      C 40 16, 880 14, 900 22
+      C 912 60, 910 390, 898 416
+      C 860 428, 60 426, 24 414
+      C 10 370, 8 70, 20 24 Z" fill="none"/>
+  </g>
+
+  <g clip-path="url(#paperClip)" filter="url(#pencil)">
+    <text class="label" x="78" y="52" font-size="15" letter-spacing="1.5">FIELD NOTES // NPC #0042</text>
+    <path class="ink-soft" d="M78 58 Q 220 62 360 57" opacity="0.55"/>
+    <text class="label" x="78" y="78" font-size="13">currently: compiling vibes</text>
+    <path class="ink-light" d="M78 84 Q 160 88 250 83" opacity="0.4"/>
+
+    <g transform="translate(0, 18)">
+    <g id="npc">
+      <ellipse cx="190" cy="368" rx="78" ry="10" fill="#2a2a2a" opacity="0.08"/>
+
+      <path class="ink" d="M132 250
+        C 128 210, 150 188, 190 186
+        C 230 188, 252 210, 248 250
+        L 258 330
+        C 240 348, 140 348, 122 330 Z" fill="#ebe7df"/>
+      <path class="ink-soft" d="M158 278 Q190 292 222 278"/>
+      <path class="ink-soft" d="M158 278 L158 308 Q190 320 222 308 L222 278"/>
+      <path class="ink-light" d="M190 210 V300"/>
+
+      <path class="ink" d="M132 235 C 100 250, 92 290, 108 318" fill="none"/>
+      <path class="ink" d="M248 235 C 280 250, 288 290, 272 318" fill="none"/>
+      <path class="ink" d="M108 318 Q 130 328 150 322"/>
+      <path class="ink" d="M272 318 Q 250 328 230 322"/>
+
+      <path class="ink" d="M140 322 L240 322 L248 338 L132 338 Z" fill="#e4e0d8"/>
+      <path class="ink" d="M148 308 L232 308 L240 322 L140 322 Z" fill="#f7f5f0"/>
+      <path class="ink-light" d="M160 314 H220"/>
+      <circle class="ink-soft" cx="190" cy="316" r="2" fill="#2a2a2a"/>
+
+      <ellipse class="ink" cx="190" cy="148" rx="46" ry="50" fill="#f7f5f0"/>
+
+      <g class="ink">
+        <path d="M148 140 C 145 100, 170 78, 190 76 C 220 74, 240 98, 234 138"/>
+        <path class="ink-soft" d="M155 108 C 170 88, 200 86, 225 105"/>
+        <path class="ink-soft" d="M160 95 C 175 80, 205 78, 222 92"/>
+        <path d="M150 128 C 142 118, 146 100, 158 92"/>
+        <path d="M230 128 C 240 116, 236 98, 222 90"/>
+        <path class="ink-light" d="M168 82 Q 162 70 170 64"/>
+        <path class="ink-light" d="M200 76 Q 208 64 218 68"/>
+      </g>
+
+      <path class="ink-soft" d="M144 148 Q 136 148 138 160 Q 144 168 150 160"/>
+      <path class="ink-soft" d="M236 148 Q 244 148 242 160 Q 236 168 230 160"/>
+
+      <g id="blink">
+        <path class="ink" d="M168 150 Q 176 144 184 150"/>
+        <path class="ink" d="M196 150 Q 204 144 212 150"/>
+        <circle cx="176" cy="152" r="2.2" fill="#2a2a2a"/>
+        <circle cx="204" cy="152" r="2.2" fill="#2a2a2a"/>
+      </g>
+      <path class="ink-soft" d="M188 158 Q 192 168 186 172"/>
+      <path class="ink" d="M178 182 Q 190 190 206 180"/>
+      <g class="hatch">
+        <path d="M156 168 L162 174"/>
+        <path d="M160 166 L166 172"/>
+        <path d="M218 168 L224 174"/>
+        <path d="M214 166 L220 172"/>
+      </g>
+    </g>
+    </g>
+
+    <g id="terminal" transform="translate(410, 78)">
+      <path class="ink" d="M8 18
+        C 4 10, 12 6, 24 6
+        L 460 8
+        C 478 8, 486 14, 486 28
+        L 484 286
+        C 484 302, 476 310, 458 310
+        L 28 308
+        C 10 308, 4 298, 6 280 Z" fill="#f7f5f0"/>
+
+      <path class="ink-soft" d="M10 48 L482 50"/>
+      <circle class="ink" cx="34" cy="28" r="5" fill="none"/>
+      <circle class="ink" cx="54" cy="28" r="5" fill="none"/>
+      <circle class="ink" cx="74" cy="28" r="5" fill="none"/>
+      <path class="ink-light" d="M31 25 L37 31 M37 25 L31 31"/>
+      <path class="ink-light" d="M54 28 H54.1" stroke-width="2"/>
+      <path class="ink-light" d="M71 25 L77 31 M71 31 L77 25" opacity="0.35"/>
+
+      <text class="label muted" x="100" y="33" font-size="12">bash - npc@sketchbook:~</text>
+
+      <g transform="translate(28, 78)">
+        <text class="term" x="0" y="0"><tspan class="muted">$</tspan> whoami</text>
+
+        <text id="line1" class="term" x="0" y="28">&gt; a caffeine-based lifeform</text>
+        <text id="line2" class="term" x="0" y="56">&gt; ships pixels, collects bugs as pets</text>
+        <text id="line3" class="term" x="0" y="84">&gt; alignment: chaotic helpful</text>
+        <text id="line4" class="term" x="0" y="112">&gt; quest: make things people keep</text>
+
+        <text class="term" x="0" y="156"><tspan class="muted">$</tspan> cat ./motto.txt</text>
+        <text class="term" x="0" y="184">"Perfect code doesn't exist -</text>
+        <text class="term" x="0" y="206"> only tomorrow's refactor does."</text>
+
+        <text class="term" x="0" y="246"><tspan class="muted">$</tspan> <tspan id="promptDot">&#9608;</tspan></text>
+      </g>
+
+      <path class="ink-light" d="M450 270 Q 460 280 448 292" opacity="0.45"/>
+      <path class="hatch" d="M20 290 L40 290 M22 294 L36 294"/>
+    </g>
+
+    <text class="label muted" x="78" y="400" font-size="12">graphite // mono // do not feed after midnight</text>
+    <path class="ink-light" d="M78 406 Q 200 410 340 404" opacity="0.4"/>
+
+    <g transform="translate(840, 56)" class="ink-soft" opacity="0.7">
+      <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="none"/>
+    </g>
+    <g transform="translate(860, 88)" class="ink-light" opacity="0.5">
+      <path d="M0 -4 L1 -1 L4 0 L1 1 L0 4 L-1 1 L-4 0 L-1 -1 Z" fill="none"/>
+    </g>
+  </g>
+</svg>

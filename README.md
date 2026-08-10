@@ -1,23 +1,139 @@
-<!-- ## Hi there 👋-->
-
 <!--
-**maxmode-now/maxmode-now** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-![My night sky](night-sky.svg)
-
+  Concept: Pencil-sketch NPC developer (A+B: character + terminal)
+  Palette: graphite mono / sketchbook paper
+  Profile: max · maxmode-now
 -->
+
 <div align="center">
-<img width="380" height="280" alt="Image" src="https://github.com/user-attachments/assets/72454a77-073c-4a6f-b64e-b9fb6ff18695" />
+  <img src="./assets/hero.svg" alt="Sketchbook NPC — developer character beside a hand-drawn terminal" width="920"/>
+  <br/>
+  <img src="./assets/tagline.svg" alt="Animated sketchbook tagline" width="920"/>
 </div>
 
+<br/>
+
+<div align="center">
+
+# max
+### *NPC #0042 · Graphite-class Developer*
+
+`species` caffeine-based lifeform &nbsp;·&nbsp; `alignment` chaotic helpful &nbsp;·&nbsp; `guild` GitHub
+
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="520"/>
+</div>
+
+### Character Sheet
+
+> I sketch interfaces, then convince electrons to behave.  
+> Some days I'm a craftsman. Some days I'm a bug's emotional support human.  
+> Either way — I leave things a little better than I found them.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+**Active Quests**
+- [x] Open the sketchbook
+- [ ] Draw something people remember
+- [ ] Ship it before the eraser wins
+- [ ] Collect stars like pocket lint
+
+    </td>
+    <td width="50%" valign="top">
+
+**Inventory**
+| Item | Effect |
+|:---|:---|
+| `console.log` | Reveals fog of war |
+| Soft eraser | Undoes hubris |
+| Second coffee | +2 focus / −1 sleep |
+| Sticky note | External brain slot |
+
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="520"/>
+</div>
+
+### Skill Tree *(hand-inked)*
+
+```text
+                 curiosity
+                     │
+         ┌───────────┼───────────┐
+         ▼           ▼           ▼
+     frontend     product      chaos
+      ████░        ███░░        █████
+```
+
+`TypeScript` · `React` · `Next.js` · `Node` · `HTML/CSS` · `Git`
+
+<details>
+<summary><strong>Traits &amp; debuffs</strong> <sub>(click)</sub></summary>
+<br/>
+
+| Trait | Notes |
+|:---|:---|
+| Perfectionism | “Almost done” can last a week |
+| Naming curse | Owns `final`, `final2`, `final_really` |
+| Tab diplomacy | Refuses to start wars. Loses them quietly. |
+| Hidden passive | Stuck? Walk. Solutions appear mid-block. |
+
+</details>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="520"/>
+</div>
+
+### Dungeons Cleared
+
+| Dungeon | Rank | Loot | Door |
+|:---|:---:|:---|:---|
+| **spring-config-drift-inspector** | ★★★★ | Config ghosts, exorcised | [enter](https://github.com/maxmode-now/spring-config-drift-inspector) |
+| **token-tray** | ★★★☆ | Tokens that stay put | [enter](https://github.com/maxmode-now/token-tray) |
+| **city-3d** | ★★★★ | A city you can orbit | [enter](https://github.com/maxmode-now/city-3d) |
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="520"/>
+</div>
+
+### Signals
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-2a2a2a?style=flat-square&logo=github&logoColor=f2efe8)](https://github.com/maxmode-now)
+[![Email](https://img.shields.io/badge/Email-4a4a4a?style=flat-square&logo=gmail&logoColor=f2efe8)](mailto:maxmode.now@gmail.com)
+[![Web](https://img.shields.io/badge/Site-6a6a6a?style=flat-square&logo=googlechrome&logoColor=f2efe8)](https://maxmode-now.com/)
+
+<br/>
+
+<img height="148" src="https://github-readme-stats.vercel.app/api?username=maxmode-now&show_icons=true&hide_border=true&bg_color=f2efe8&title_color=2a2a2a&icon_color=4a4a4a&text_color=3a3a3a&ring_color=6a6a6a" alt="GitHub stats"/>
+<img height="148" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxmode-now&layout=compact&hide_border=true&bg_color=f2efe8&title_color=2a2a2a&text_color=3a3a3a" alt="Top languages"/>
+
+</div>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="" width="520"/>
+</div>
+
+<div align="center">
+
+**“Perfect code doesn't exist — only tomorrow's refactor does.”**
+
+<sub>This NPC responds to issues &amp; PRs · coffee optional · kindness required</sub>
+
+<br/><br/>
+
+```text
+$ echo "thanks for visiting the sketchbook"
+thanks for visiting the sketchbook
+$ _
+```
+
+
+</div>
