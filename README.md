@@ -54,9 +54,19 @@
 ### Dungeons Cleared
 
 <div align="center">
-  <a href="https://github.com/maxmode-now?tab=repositories">
-    <img src="./assets/dungeons-card.svg" alt="Dungeons cleared: spring-config-drift-inspector, token-tray, city-3d" width="780"/>
+  <a href="https://plugins.jetbrains.com/plugin/33357-spring-config-drift-inspector">
+    <img src="./assets/dungeons-card.svg" alt="Dungeons cleared: Spring Config Drift Inspector (JetBrains Marketplace), token-tray, city-3d" width="780"/>
   </a>
+</div>
+
+<div align="center">
+  <sub>
+    <a href="https://plugins.jetbrains.com/plugin/33357-spring-config-drift-inspector">Marketplace</a>
+    ·
+    <a href="https://github.com/maxmode-now/token-tray">token-tray</a>
+    ·
+    <a href="https://github.com/maxmode-now/city-3d">city-3d</a>
+  </sub>
 </div>
 
 <div align="center">
