@@ -44,7 +44,7 @@
 ### Traits &amp; Debuffs
 
 <div align="center">
-  <img src="./assets/traits.svg" alt="Traits and debuffs: Perfectionism, Naming curse, Tab diplomacy, Hidden passive" width="720"/>
+  <img src="./assets/traits-card.svg" alt="Traits and debuffs: Perfectionism, Naming curse, Tab diplomacy, Hidden passive" width="720"/>
 </div>
 
 <div align="center">
