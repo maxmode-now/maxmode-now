@@ -18,6 +18,6 @@ Here are some ideas to get you started:
 
 -->
 
-<img width="350" height="250" alt="Image" src="https://github.com/user-attachments/assets/72454a77-073c-4a6f-b64e-b9fb6ff18695" />
+<img width="380" height="280" alt="Image" src="https://github.com/user-attachments/assets/72454a77-073c-4a6f-b64e-b9fb6ff18695" />
 
 
